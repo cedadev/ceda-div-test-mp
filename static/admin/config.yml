@@ -16,8 +16,8 @@ collections:
     label: news
     folder: /content/news/updates/2026
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    media_folder: '/assets/img/news/{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}'
-    public_folder: '/img/news/{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}'
+    media_folder: '/assets/img/news/{{year}}/{{slug}}'
+    public_folder: '/img/news/{{year}}/{{slug}}'
     fields:
       - { label: title, name: title, widget: string }
       - { label: date, name: date, widget: datetime, format: YYYY-MM-DD HH:mm:ss}
