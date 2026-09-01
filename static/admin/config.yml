@@ -3,7 +3,7 @@ site_url: https://mjpritchard.github.io/ceda-div-test-mp
 
 backend:
   name: github
-  repo: mjpritchard/ceda-div-test-mp
+  repo: cedadev/ceda-div-test-mp
   auth_methods: [token]
 
 media_folder: /assets/img
