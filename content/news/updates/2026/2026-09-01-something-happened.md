@@ -32,10 +32,8 @@ The new environment brings a number of advantages:
 Breaking change: it will now be possible to create a virtual environment which works across JASMIN. However, old environments which were created based on the notebook service (specifically based on the Python found in \`/opt/jaspy\` in the notebook service) will stop working in \*one month\*. You can migrate by:
 
 1. Activating your current environment and running \`pip freeze > req.txt\` .
-
-1. Creating a new environment according to {{<link "https://help.jasmin.ac.uk/docs/software-on-jasmin/python-virtual-environments/#in-the-jasmin-notebook-service">}}the new instructions here{{</link>}}.
-
-1. Running \`pip install -r req.txt\` in the new environment.
+2. Creating a new environment according to {{<link "https://help.jasmin.ac.uk/docs/software-on-jasmin/python-virtual-environments/#in-the-jasmin-notebook-service">}}the new instructions here{{</link>}}.
+3. Running \`pip install -r req.txt\` in the new environment.
 
 The documentation has been updated please see:
 
